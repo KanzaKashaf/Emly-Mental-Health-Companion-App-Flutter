@@ -43,14 +43,28 @@ EMLY is designed to provide users with an accessible and supportive environment 
 
 # 📱 App Screenshots
 
-The following screenshots showcase major screens and workflows of the EMLY mobile application.
+The following screenshots showcase the major screens and workflows of the EMLY mobile application, presented in both **Light** and **Dark** themes.
 
 ### 🚀 Splash & Welcome
 
 <p align="center">
-  <img src="screenshots/splash.png" width="180" alt="EMLY Splash Screen">
+  <img src="screenshots/splash-light.png" width="180" alt="EMLY Splash Screen - Light Theme">
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/welcome.png" width="180" alt="EMLY Welcome Screen">
+  <img src="screenshots/splash-dark.png" width="180" alt="EMLY Splash Screen - Dark Theme">
+</p>
+
+<p align="center">
+  <em>Light Theme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dark Theme</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/welcome-light.png" width="180" alt="EMLY Welcome Screen - Light Theme">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/welcome-dark.png" width="180" alt="EMLY Welcome Screen - Dark Theme">
+</p>
+
+<p align="center">
+  <em>Light Theme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dark Theme</em>
 </p>
 
 ---
@@ -58,27 +72,65 @@ The following screenshots showcase major screens and workflows of the EMLY mobil
 ### 🏠 Home
 
 <p align="center">
-  <img src="screenshots/home.png" width="180" alt="EMLY Home Screen">
+  <img src="screenshots/home-light.png" width="180" alt="EMLY Home Screen - Light Theme">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/home-dark.png" width="180" alt="EMLY Home Screen - Dark Theme">
+</p>
+
+<p align="center">
+  <em>Light Theme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dark Theme</em>
 </p>
 
 ---
 
-### 💬 Chat & Voice Interaction
+### 💬 Chat Interaction
 
 <p align="center">
-  <img src="screenshots/chat-type.png" width="180" alt="EMLY Chat Screen">
+  <img src="screenshots/chat-type-light.png" width="180" alt="EMLY Text Chat - Light Theme">
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/chat-voice.png" width="180" alt="EMLY Voice Chat Screen">
+  <img src="screenshots/chat-type-dark.png" width="180" alt="EMLY Text Chat - Dark Theme">
+</p>
+
+<p align="center">
+  <em>Light Theme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dark Theme</em>
+</p>
+
+### 🎙️ Voice Chat
+
+<p align="center">
+  <img src="screenshots/chat-voice-light.png" width="180" alt="EMLY Voice Chat - Light Theme">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/chat-voice-dark.png" width="180" alt="EMLY Voice Chat - Dark Theme">
+</p>
+
+<p align="center">
+  <em>Light Theme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dark Theme</em>
 </p>
 
 ---
 
-### 🧠 CBT Plan & Mood Check-in
+### 🧠 CBT Plan
 
 <p align="center">
-  <img src="screenshots/cbt-plan.png" width="180" alt="EMLY CBT Plan">
+  <img src="screenshots/cbt-plan-light.png" width="180" alt="EMLY CBT Plan - Light Theme">
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/mood-checkin.png" width="180" alt="EMLY Mood Check-in">
+  <img src="screenshots/cbt-plan-dark.png" width="180" alt="EMLY CBT Plan - Dark Theme">
+</p>
+
+<p align="center">
+  <em>Light Theme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dark Theme</em>
+</p>
+
+### 😊 Mood Check-in
+
+<p align="center">
+  <img src="screenshots/mood-checkin-light.png" width="180" alt="EMLY Mood Check-in - Light Theme">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/mood-checkin-dark.png" width="180" alt="EMLY Mood Check-in - Dark Theme">
+</p>
+
+<p align="center">
+  <em>Light Theme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dark Theme</em>
 </p>
 
 ---
@@ -86,7 +138,13 @@ The following screenshots showcase major screens and workflows of the EMLY mobil
 ### 📊 Individual Mental Health Report
 
 <p align="center">
-  <img src="screenshots/individual-report.png" width="180" alt="EMLY Individual Report">
+  <img src="screenshots/individual-report-light.png" width="180" alt="EMLY Individual Report - Light Theme">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/individual-report-dark.png" width="180" alt="EMLY Individual Report - Dark Theme">
+</p>
+
+<p align="center">
+  <em>Light Theme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dark Theme</em>
 </p>
 
 ---
@@ -94,17 +152,39 @@ The following screenshots showcase major screens and workflows of the EMLY mobil
 ### 👨‍⚕️ Find a Doctor
 
 <p align="center">
-  <img src="screenshots/find-a-doctor.png" width="180" alt="EMLY Find a Doctor">
+  <img src="screenshots/find-a-doctor-light.png" width="180" alt="EMLY Find a Doctor - Light Theme">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/find-a-doctor-dark.png" width="180" alt="EMLY Find a Doctor - Dark Theme">
+</p>
+
+<p align="center">
+  <em>Light Theme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dark Theme</em>
 </p>
 
 ---
 
-### 📚 History & ⚙️ Settings
+### 📚 History
 
 <p align="center">
-  <img src="screenshots/history.png" width="180" alt="EMLY History">
+  <img src="screenshots/history-light.png" width="180" alt="EMLY History - Light Theme">
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/settings.png" width="180" alt="EMLY Settings">
+  <img src="screenshots/history-dark.png" width="180" alt="EMLY History - Dark Theme">
+</p>
+
+<p align="center">
+  <em>Light Theme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dark Theme</em>
+</p>
+
+### ⚙️ Settings
+
+<p align="center">
+  <img src="screenshots/settings-light.png" width="180" alt="EMLY Settings - Light Theme">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/settings-dark.png" width="180" alt="EMLY Settings - Dark Theme">
+</p>
+
+<p align="center">
+  <em>Light Theme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dark Theme</em>
 </p>
 
 ---
