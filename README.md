@@ -1,176 +1,285 @@
-# Mental Health App
+# EMLY — AI-Powered Mental Health Companion
 
-Flutter application for mental health support features such as authentication, chat, voice input, notifications, file and media access, reports, and external service integration.
+<p align="center">
+  <strong>An AI-powered mobile companion designed to provide accessible, personalized, and responsible mental health support.</strong>
+</p>
 
-## What you need
+<p align="center">
+  Flutter • Artificial Intelligence • Conversational AI • CBT • Voice Interaction
+</p>
 
-Install these before running the project:
+---
 
-1. Flutter SDK 3.9.2 or newer, with Dart 3.9.x.
-1. Git.
-1. An editor such as VS Code or Android Studio.
-1. For Android: Android SDK, Android Studio, and either an emulator or a physical device.
-1. For iOS: Xcode on macOS with a simulator or physical device.
-1. For web: Google Chrome.
-1. Internet access, because the app talks to a remote backend API.
+## 📌 Overview
 
-## Project dependencies
+EMLY is an AI-powered mental health companion mobile application developed as a Final Year Project at the National Textile University, Faisalabad.
 
-The app uses these Flutter packages at runtime:
+The application combines conversational AI, voice interaction, mental health screening, Cognitive Behavioral Therapy (CBT)-based activities, mood tracking, reports, and healthcare support features into a single mobile platform.
 
-- cupertino_icons
-- image_picker
-- shared_preferences
-- dio
-- flutter_secure_storage
-- google_sign_in
-- record
-- path_provider
-- permission_handler
-- http
-- http_parser
-- audioplayers
-- url_launcher
-- pdf
-- printing
-- open_filex
-- flutter_local_notifications
-- timezone
-- flutter_timezone
-- shimmer
+EMLY is designed to provide users with an accessible and supportive environment where they can communicate with an AI companion, complete structured mental health activities, monitor their progress, and access relevant healthcare resources.
 
-Development-only packages:
+> **Important:** EMLY is designed for educational support, self-reflection, and mental health screening. It does not replace professional medical care and is not intended to provide medical diagnosis.
 
-- flutter_test
-- flutter_lints
-- flutter_launcher_icons
+---
 
-The app also depends on these services and platform integrations:
+## ✨ Key Highlights
 
-- Backend API: https://fyp-mental-health-therapist-fastapi.onrender.com
-- Android permissions for RECORD_AUDIO, INTERNET, CALL_PHONE, POST_NOTIFICATIONS, RECEIVE_BOOT_COMPLETED, and VIBRATE
-- Voice features that call OpenAI speech transcription and Azure speech text-to-speech services
+- 🤖 AI-powered conversational mental health companion
+- 💬 Text-based mental health conversations
+- 🎙️ Voice-based interaction
+- 🧠 Structured mental health screening
+- 📝 Individual mental health reports
+- 🌱 CBT-based activities and plans
+- 😊 Mood check-ins and tracking
+- 📊 Progress and activity monitoring
+- 👨‍⚕️ Doctor discovery and healthcare support
+- 📚 Conversation history
+- 🔔 Local notifications and reminders
+- 🔐 Secure authentication and session management
+- 🌙 Light and dark theme support
+- 📱 Responsive Flutter mobile interface
 
-## Step-by-step: run the project
+---
 
-### 1. Open the project folder
+# 📱 App Screenshots
 
-Open the folder c:\FYP\Project_Code\mental_health_app in VS Code or Android Studio.
+The following screenshots showcase major screens and workflows of the EMLY mobile application.
 
-### 2. Check Flutter is installed
+### 🚀 Splash & Welcome
 
-Run:
+<p align="center">
+  <img src="screenshots/splash.png" width="180" alt="EMLY Splash Screen">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/welcome.png" width="180" alt="EMLY Welcome Screen">
+</p>
 
-```bash
-flutter --version
-```
+---
 
-If Flutter is not installed, install the Flutter SDK first and make sure flutter is available in your terminal.
+### 🏠 Home
 
-### 3. Get the dependencies
+<p align="center">
+  <img src="screenshots/home.png" width="180" alt="EMLY Home Screen">
+</p>
 
-From the project root, run:
+---
 
-```bash
-flutter pub get
-```
+### 💬 Chat & Voice Interaction
 
-This downloads every package listed in pubspec.yaml and prepares the app to build.
+<p align="center">
+  <img src="screenshots/chat-type.png" width="180" alt="EMLY Chat Screen">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/chat-voice.png" width="180" alt="EMLY Voice Chat Screen">
+</p>
 
-### 4. Verify your target device
+---
 
-Choose one target:
+### 🧠 CBT Plan & Mood Check-in
 
-- Android emulator
-- Android physical device with USB debugging enabled
-- iOS simulator or iPhone device on macOS
-- Chrome for web
+<p align="center">
+  <img src="screenshots/cbt-plan.png" width="180" alt="EMLY CBT Plan">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/mood-checkin.png" width="180" alt="EMLY Mood Check-in">
+</p>
 
-Check available devices with:
+---
 
-```bash
-flutter devices
-```
+### 📊 Individual Mental Health Report
 
-### 5. Make sure the backend is reachable
+<p align="center">
+  <img src="screenshots/individual-report.png" width="180" alt="EMLY Individual Report">
+</p>
 
-The app is configured to use the remote API at https://fyp-mental-health-therapist-fastapi.onrender.com.
+---
 
-Before launching the app, confirm:
+### 👨‍⚕️ Find a Doctor
 
-- You have an internet connection.
-- The backend server is online.
-- Your account or session tokens are valid if you are testing authenticated screens.
+<p align="center">
+  <img src="screenshots/find-a-doctor.png" width="180" alt="EMLY Find a Doctor">
+</p>
 
-### 6. Run the app
+---
 
-Use the target you want:
+### 📚 History & ⚙️ Settings
 
-```bash
-flutter run
-```
+<p align="center">
+  <img src="screenshots/history.png" width="180" alt="EMLY History">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/settings.png" width="180" alt="EMLY Settings">
+</p>
 
-If multiple devices are connected, pick one explicitly:
+---
 
-```bash
-flutter run -d <device_id>
-```
+# 🧩 Core Features
 
-You can get the device id from flutter devices.
+## 🤖 AI Mental Health Companion
 
-### 7. Grant permissions when prompted
+EMLY provides a conversational AI interface where users can interact with the system through text and voice.
 
-The app may ask for permissions during use. Allow the ones needed for the feature you are testing:
+The conversational experience is designed around supportive interaction while keeping mental health screening and assessment workflows structured and controlled.
 
-- Microphone access for voice recording
-- Notification permission for reminders and alerts
-- Phone permission for call actions
-- File and media access for uploads and picking files
+---
 
-### 8. If you want a clean rebuild
+## 💬 Text Chat
 
-If the app was already built before and you want to reset generated files, run:
+Users can communicate with EMLY through a real-time text-based conversation interface.
 
-```bash
-flutter clean
-flutter pub get
-flutter run
-```
+The chat experience supports:
 
-## Platform notes
+- Conversational interaction
+- Session-based conversations
+- Conversation history
+- Structured mental health workflows
+- Context-aware responses
+- Session reports
 
-### Android
+---
 
-- Use Android Studio or another installed Android SDK setup.
-- The manifest already declares the needed permissions for audio, notifications, calls, internet, and reboot scheduling.
-- If you test notifications, allow them on the device when Android asks.
+## 🎙️ Voice Interaction
 
-### iOS
+EMLY supports voice-based interaction for a more natural conversational experience.
 
-- Build on macOS with Xcode installed.
-- Open the iOS simulator or sign the app for a physical device if needed.
+The voice pipeline integrates speech-to-text and text-to-speech services to allow users to communicate through spoken input and receive spoken responses.
 
-### Web
+---
 
-- Run the app in Chrome with:
+## 🧠 Mental Health Screening
 
-```bash
-flutter run -d chrome
-```
+The application includes a structured screening workflow designed around standardized mental health assessment concepts.
 
-## Common issues
+The system separates:
 
-- If flutter pub get fails, check your network and Flutter installation.
-- If the app opens but features fail, confirm the backend API is online.
-- If microphone or notification features do nothing, make sure you accepted the device permission prompts.
-- If Google sign-in or voice features fail, check that the device has internet access and the relevant platform services are available.
+- Conversation and user interaction
+- Information extraction
+- Assessment logic
+- Screening decisions
+- Response generation
 
-## Helpful commands
+This separation helps keep the assessment workflow controlled rather than allowing a generative AI model to independently determine screening outcomes.
 
-```bash
-flutter doctor
-flutter devices
-flutter pub get
-flutter run
-flutter clean
-```
+---
+
+## 🌱 CBT-Based Activities
+
+EMLY provides structured Cognitive Behavioral Therapy (CBT)-inspired activities to encourage self-reflection and healthy behavioral patterns.
+
+Activities include areas such as:
+
+- Mood tracking
+- Pleasant activities
+- Thought records
+- Identifying thinking traps
+- Sleep tracking
+- Gratitude
+- Self-compassion
+- Weekly reflection
+- Progress monitoring
+
+---
+
+## 😊 Mood Check-in
+
+Users can record their mood and reflect on their emotional state.
+
+Mood information can be used to help users monitor their personal progress over time.
+
+---
+
+## 📊 Reports
+
+EMLY provides individual reports based on completed screening and interaction workflows.
+
+Reports are designed to present structured information in a clear and user-friendly format.
+
+---
+
+## 👨‍⚕️ Healthcare Support
+
+The application includes healthcare-oriented features such as:
+
+- Doctor discovery
+- Doctor information
+- Appointment-related functionality
+- Emergency contact support
+
+These features are intended to help connect users with appropriate human support when needed.
+
+---
+
+## 📚 Conversation History
+
+Users can access their previous conversation sessions and review their interaction history.
+
+---
+
+## 🔐 Authentication & Security
+
+The application uses authenticated sessions with secure token handling.
+
+Authentication functionality includes:
+
+- User registration
+- User login
+- Token-based authentication
+- Access token and refresh token handling
+- Session management
+- Google authentication integration
+- Secure local token storage
+
+---
+
+# 🛠️ Technology Stack
+
+### Frontend
+
+- **Flutter**
+- **Dart**
+- Material/Cupertino UI components
+- Responsive mobile UI
+
+### AI & Voice
+
+- **OpenAI API**
+- Speech-to-Text
+- **Azure Speech Services**
+- Text-to-Speech
+
+### Backend
+
+- **FastAPI**
+- REST APIs
+- JWT-based authentication
+
+### Local Storage & Security
+
+- SharedPreferences
+- Flutter Secure Storage
+
+### Important Flutter Packages
+
+- `dio`
+- `flutter_secure_storage`
+- `google_sign_in`
+- `record`
+- `permission_handler`
+- `audioplayers`
+- `shared_preferences`
+- `image_picker`
+- `url_launcher`
+- `pdf`
+- `printing`
+- `open_filex`
+- `flutter_local_notifications`
+- `timezone`
+- `flutter_timezone`
+- `shimmer`
+
+---
+
+# 🔗 Backend Integration
+
+The Flutter application communicates with the EMLY backend through REST APIs.
+
+Backend API:
+
+```text
+https://fyp-mental-health-therapist-fastapi.onrender.com
